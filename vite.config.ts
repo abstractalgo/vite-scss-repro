@@ -6,7 +6,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        api: "modern-compiler",
+        api: "modern-compiler", // <----- comment this to generate /src/components/bla.module.scss.d.ts
         // additionalData: `@use "@primer-io/goat" as goat;`,
         // importers: [
         //   new NodePackageImporter(),
