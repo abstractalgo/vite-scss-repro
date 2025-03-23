@@ -1,0 +1,6 @@
+@use '@primer-io/goat' as goat;
+
+.smtg {
+  color: red;
+  font-size: goat.space(4);
+}
